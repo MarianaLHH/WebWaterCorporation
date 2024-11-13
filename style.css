@@ -98,6 +98,10 @@ body {
 p {
   text-align: justify;
 }
+.social-media{
+padding:10px;
+max-width: 70px;
+}
 /* Estilos responsivos */
 @media (max-width: 767px) {
   .navbar-nav {
@@ -151,5 +155,47 @@ p {
     transform: scale(1.1);
   }
 
-  /*footer*/
+}
+
+/*footer*/
+.social-media-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;  /* Espaciado entre los íconos */
+}
+
+/* Estilo para los íconos */
+.social-icon img {
+  width: 40px;  /* Tamaño base de los íconos */
+  height: auto; /* Mantiene la proporción de la imagen */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Efecto hover */
+.social-icon img:hover {
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el mouse */
+  opacity: 0.8;  /* Baja la opacidad ligeramente */
+}
+
+/* Media Queries para hacerlo responsivo */
+
+/* Pantallas medianas (tabletas) */
+
+@media (max-width: 768px) {
+  .social-icon img {
+    width: 35px;  /* Reduce el tamaño de los íconos en pantallas medianas */
+  }
+}
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+  .social-icon img {
+    width: 30px;  /* Reduce aún más el tamaño de los íconos en pantallas pequeñas */
+  }
+}
+
+.container p {
+  color: #fff;
+  margin-top: 10px;
 }
