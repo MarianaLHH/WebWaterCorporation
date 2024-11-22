@@ -5,13 +5,26 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  background-color: #0657b4e8;
+p {
+  text-align: justify;
 }
 
-.section-padding {
+body {
+  background-color: #fff;
+}
+
+h2{
+  color: blue;
+  font-size: 32px;
+  font-weight: bold;
+}
+.section-padding-primero {
   padding: 70px 0;
+}
+
+.section-padding-segundo{
+  padding: 70px 0;
+  background-color: #2888C9;
 }
 
 /* Estilos para el carrusel */
@@ -53,10 +66,16 @@ body {
 }
 
 /* Estilos de la barra de navegación */
-
-.bg-custom {
-  background-color: #2f8345;
+a.nav-link{
+  color: black; /* Cambiar color del texto a negro */
 }
+.navbar-nav .nav-link:hover {
+  color: gray; /* Cambia el color cuando el ratón pasa por encima */
+}
+.bg-custom {
+  background-color: #fff;
+}
+
 .navbar-nav a {
   font-size: 15px;
   text-transform: uppercase;
@@ -64,7 +83,7 @@ body {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: black;
   font-size: 25px;
   text-transform: uppercase;
   font-weight: bold;
@@ -83,7 +102,8 @@ body {
 .navbar-toggler {
   padding: 1px 5px;
   font-size: 18px;
-  line-height: 1;
+  line-height: 1;       
+  
 }
 
 /* Estilos para los servicios y el equipo */
@@ -95,9 +115,7 @@ body {
   font-size: 20px;
 }
 
-p {
-  text-align: justify;
-}
+
 .social-media{
 padding:10px;
 max-width: 70px;
@@ -130,11 +148,15 @@ max-width: 70px;
   }
   .about-text {
     padding-top: 50px;
+    color: black;
   }
   .card {
     margin-bottom: 30px;
   }
-  .section-padding {
+  .section-padding-primero {
+    padding: 50px 0;
+  }
+  .section-padding-segundo {
     padding: 50px 0;
   }
 
@@ -196,6 +218,21 @@ max-width: 70px;
 }
 
 .container p {
-  color: #fff;
+  color: black;
   margin-top: 10px;
+  font-size: 1.3em;
+
 }
+
+/*Servicio recuadro*/
+.card-body {
+  background-color:#2888C9;
+
+}
+
+/* Cambiar el color del texto del <h3> a azul */
+.card-body h3 {
+  color: rgb(245, 245, 245);
+  font-weight: bold;
+}
+/*titulos de los textos de card*/
