@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Water Network Cooperation</title>
+    <title>Water Cooperation Network</title>
     <!-- css -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -20,53 +20,8 @@
     <!-- Bootstrap CSS -->
   </head>
   <body>
-    <!-- ------------------------------Barra navegadore ---------------------------->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
-      <div class="container">
-        <div class="four columns">
-          <img
-            src="../img/logo.png"
-            alt="Es un logo"
-            width="30%"
-            height="50%"
-          />
-        </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarS"
-          aria-controls="navbarS"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarS">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a href="Nosotro.html" class="nav-link">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a href="Servicios.html" class="nav-link">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a href="Recursos.html" class="nav-link">Recursos</a>
-            </li>
-            <li class="nav-item">
-              <a href="Red.html" class="nav-link">Red</a>
-            </li>
-            <li class="nav-item">
-              <a href="Contacto.html" class="nav-link">Contactos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <!-- ------------------------------Barra navegador ---------------------------->
+    <div id="navbar-placeholder"></div>
 
     <!---------------------- Haciendo el slider-carusel ---------------------------------->
     <div id="caruselE" class="carousel slide" data-bs-ride="carousel">
@@ -98,7 +53,7 @@
       <!-- Imagen de cada carusel -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../img/contactoimg.jpg" class="d-block w-100" alt="" />
+          <img src="../img/contactoPortada1.jpg" class="d-block w-100" alt="" />
           <div class="carousel-caption">
             <h5>CONTACTANOS</h5>
             <!-- <p>
@@ -141,27 +96,23 @@
             <div class="seccion-header text-center text-white pb-5">
               <h2>Contacto</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Molestiae nostrum consequatur asperiores quis cupiditate? Ab
-                veritatis enim exercitationem rem explicabo? Esse inventore
-                voluptatum non perspiciatis odio quia repudiandae autem. Omnis.
+                Estamos aquí para ayudarte a encontrar soluciones innovadoras y efectivas para tus necesidades en agua y saneamiento. Ya sea que requieras asistencia técnica, información sobre nuestros servicios o establecer una colaboración, no dudes en comunicarte con nosotros. Completa el formulario de contacto o utiliza los canales disponibles, y nuestro equipo responderá a la brevedad. ¡Trabajemos juntos por un futuro más sostenible!
               </p>
             </div>
           </div>
         </div>
-
-
+        
         <!--Cuadro de formulario-->
         <div class="container mt-5 mb-5">
           <div class="row m-0">
           <!-- imagen -->
-          <div class="col-12 col-md-1 col-lg-6">
+          <div class="col-12 col-md-8 col-lg-6">
             <div class="about-img">
               <img src="../img/contacto.png" class="img-fluid" alt="" />
             </div>
           </div>
           <!-- formulario -->
-          <div class="col-12 col-md-1 col-lg-5">
+          <div class="col-12 col-md-8 col-lg-5">
             <form action="#" class="bg-dark pb-4 m-auto">
               <div class="row">
                 <div class="col-md-12">
@@ -206,10 +157,11 @@
         </div>
 
     </section>
-
-    <footer class="bg-custom p-2 text-center">
+<!--------------------------------- Footer ---------------------------------->
+<!-- Nota.-Se debe agrgar el link de las redes sociales en <a href=""></a> -->
+    <footer class="bg-dark p-2 text-center">
       <div class="social-media-redes">       
-            <a href="" target="_blank" class="social-icon">
+            <a href="" target="_blank" class="social-icon"> 
               <img src="../img/facebook_icono.png" alt="facebook">
             </a>
           
@@ -225,11 +177,12 @@
         
       </div>
       <div class="container">
-        <p class="text-white">Water Cooperation</p>
+        <p class="text-white">Water Cooperation Network</p>
       </div>
     </footer>
 
     <!-- Bootstrap JS -->
+     <script src="../navbar.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

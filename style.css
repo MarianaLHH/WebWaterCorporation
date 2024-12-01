@@ -14,9 +14,15 @@ body {
 }
 
 h2{
-  color: blue;
+  color:#1B82BC;
   font-size: 32px;
   font-weight: bold;
+}
+.container p {
+  color: black;
+  margin-top: 10px;
+  font-size: 1.3em;
+
 }
 .section-padding-primero {
   padding: 70px 0;
@@ -24,7 +30,7 @@ h2{
 
 .section-padding-segundo{
   padding: 70px 0;
-  background-color: #2888C9;
+  background-color:#4C9CD2;
 }
 
 /* Estilos para el carrusel */
@@ -65,7 +71,7 @@ h2{
   z-index: 1;
 }
 
-/* Estilos de la barra de navegación */
+/* -----------Estilos de la barra de navegación ----------------*/
 a.nav-link{
   color: black; /* Cambiar color del texto a negro */
 }
@@ -106,7 +112,11 @@ a.nav-link{
   
 }
 
-/* Estilos para los servicios y el equipo */
+.navbar-toggler {
+  background-color:#4C9CD2; /* Cambia el fondo del botón (naranja) */
+  border-color: #4C9CD2;    /* Cambia el color del borde */
+}
+/* -------------Estilos para los recuadros donde estan los card (imagen y texto)-----------------------*/
 .services .card-body i {
   font-size: 50px;
 }
@@ -120,7 +130,16 @@ a.nav-link{
 padding:10px;
 max-width: 70px;
 }
-/* Estilos responsivos */
+.card-body h3 {
+  color: rgb(245, 245, 245);
+  font-weight: bold;
+}
+/*Servicio recuadro*/
+.card-body {
+  background-color:#2888C9;
+
+}
+/* -------------------Estilos responsivos ----------------------*/
 @media (max-width: 767px) {
   .navbar-nav {
     text-align: center;
@@ -179,7 +198,7 @@ max-width: 70px;
 
 }
 
-/*footer*/
+/*-----------------------------------footer------------------*/
 .social-media-redes {
   display: flex;
   justify-content: center;
@@ -200,8 +219,6 @@ max-width: 70px;
   opacity: 0.8;  /* Baja la opacidad ligeramente */
 }
 
-/* Media Queries para hacerlo responsivo */
-
 /* Pantallas medianas (tabletas) */
 
 @media (max-width: 768px) {
@@ -217,22 +234,5 @@ max-width: 70px;
   }
 }
 
-.container p {
-  color: black;
-  margin-top: 10px;
-  font-size: 1.3em;
 
-}
 
-/*Servicio recuadro*/
-.card-body {
-  background-color:#2888C9;
-
-}
-
-/* Cambiar el color del texto del <h3> a azul */
-.card-body h3 {
-  color: rgb(245, 245, 245);
-  font-weight: bold;
-}
-/*titulos de los textos de card*/
